@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 0 42px;
+
+}
+
+.cabecalho-menu {
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.button-cabecalho {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    Width: 124px;
+    Height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+.image-logo {
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    margin-top: 163px;
+
+}
+
+.principal {
+    display: inline-block;
+    width: 493px;
+    margin-left: 85px;
+
+}
+
+.titulo {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+
+}
+
+.paragrafo {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-principal {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+
+}
+
+@media screen and (max-width:1300px) {
+
+header{
+    display: flex;
+}
+
+    .cabecalho-menu {
+        display: none;
+
+
+    }
+
+    .button-cabecalho {
+      
+        margin: -10px 30px 50px 210px;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .image-logo {
+        display: flex;
+        width: 312px;
+        height: 288px;
+        align-content: center;
+        margin: 20px 39px 22px 39px;
+
+
+    }
+
+    .principal {
+        display: block;
+
+    }
+
+    .titulo {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+        Width: 278px;
+        Height: 60px;
+        margin: 0px 55px 29px 57px;
+    }
+
+    .paragrafo {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        Width: 304px;
+        Height: 165px;
+        margin: 29px 43px 26px 43px;
+        align-items: center;
+
+    }
+
+    .button-principal {
+        display: flex;
+        margin: 26px 139px 77px 139px;
+    }
+
+
+
+
+
+}
